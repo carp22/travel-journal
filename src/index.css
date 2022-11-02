@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-travel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.travel-journal_title{
+  font-weight: 100;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color:#FFFFFF;
+}
+.places-img{
+  margin-bottom: 40px;
+  width: 125px;
+  height: 170px;
+  border-radius: 20px;
+
+}
+.places{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.places_information{
+  margin-left: 20px;
+  width: 326px;
+  gap: 12px;
+}
+.google_map-link{
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.places_link{
+  color: #918E9B ;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.places_location{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  
+  color: #2B283A;
+}
+.places_title{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0px;
+  color: #2B283A;
+}
+.places_dates{
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+.places_description{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #2B283A;
+
+  margin: auto;
+  
+}
